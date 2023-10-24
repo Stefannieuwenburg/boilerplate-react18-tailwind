@@ -1,15 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+//import logo from "./logo.svg";
+import NinjaPage from "./pages/ninjaTailwind/index";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <h1 className="text-3xl font-bold underline">Hello React18 + Tailwind!</h1>
-      </header>
-    </div>
+    <Fragment>
+      {/* <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <section>
+          <h1 className="text-3xl font-bold underline">
+            Hello React18 + Tailwind!
+          </h1>
+        </section>
+      </div> */}
+      <NinjaPage/>
+    </Fragment>
   );
 }
 
