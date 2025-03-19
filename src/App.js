@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 //import logo from "./logo.svg";
-import NinjaPage from "./pages/ninjaTailwind/index";
+import NinjaPage from "./pages/tailwindPage/index";
 import "./App.css";
 
 const App = () => {

@@ -15,5 +15,5 @@ module.exports = {
     },
     },
   },
-  plugins: ["prettier-plugin-tailwindcss"],
+  plugins: ["prettier-plugin-tailwindcss","@babel/plugin-transform-private-property-in-object",]
 };
